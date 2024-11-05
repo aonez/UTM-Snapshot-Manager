@@ -53,7 +53,7 @@ struct VMSectionView: View {
                 .buttonStyle(RemoveButtonStyle())
                 Text(vm.url.lastPathComponent)
                     .font(Font.system(size: 13, weight: Font.Weight.medium))
-					.foregroundColor(Color.primary)
+                    .foregroundColor(Color.primary)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 
             }
